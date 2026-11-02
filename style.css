@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial,sans-serif;
+}
+
+.wadah-hp {
+    background-color: wheat;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.foto-bulat {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #0fc
+}
+.nama-akun {
+    color: white;
+    margin-bottom: 5px;
+}
+.bio-singkat {
+    color: aliceblue; 
+}
+.tombol-link {
+    display: block;
+    background-color: black;
+    color: blueviolet;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.tombol-link:hover {
+    background-color: blue;
+    color: antiquewhite;
+    transform: scale(1.05);
+}
